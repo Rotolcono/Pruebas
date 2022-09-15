@@ -1,0 +1,70 @@
+/*Imagen principal*/
+.fondo{
+    margin: 20px 0px;
+    height: 500px;
+}
+/*Primera linea de texto*/
+.linea{
+    color: rgb(118,118,118);
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+/*Tarjetas de anfitriones*/
+.tarjetas{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tarjeta{
+    position: relative;
+    width: 275px;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center; 
+    border-radius: 10px;
+    
+}
+.tarj__img{
+    position: absolute;
+    left: 80px;
+    width: 120px;
+    height: 120px;
+    z-index: 1;
+    
+}
+.img__p{
+    width: 100%;
+    height: 100%;
+    border-radius: 80px;
+}
+.tarj__tittle{
+    font-variant: small-caps;
+    color: #333;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.tarj__textos{
+    position: relative;
+    top: 60px;
+    box-shadow: 1px 1px 50px #DBDBDB;
+    padding-top: 80px;
+ 
+}
+.tarj__text{
+    color: #7e7e7e;  
+    padding: 5px;
+    font-weight: none;
+}
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.social__img{
+    width: 50px;
+    height: 50px;
+    margin: 5px; 
+}

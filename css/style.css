@@ -1,0 +1,227 @@
+
+
+@font-face {
+    font-family: PT sans;
+    src: url(../assets/fonts/PTSans-Regular.ttf);
+}
+@font-face {
+    font-family: PT sansb;
+    src: url(../assets/fonts/PTSans-Bold.ttf);
+}
+@font-face {
+    font-family: Rajdhani-Regular;
+    src: url(../assets/fonts/Rajdhani-Regular.ttf);
+}
+body{
+    background-color: white;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    font-family: PT sans;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+    border-bottom: 1px solid grey;
+   }
+/*Imagen logotipo de AirbnbRibera y barra de búsqueda*/
+
+.logo{
+   
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.contain__img{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.barra{
+    padding-left: 10px;
+    height: 30px;
+    font-family: PT sans;
+    box-shadow: 2px 2px 5px #DBDBDB;
+    border: 1px solid grey;
+}
+.barra:hover{
+    box-shadow: 5px 5px 20px rgb(243, 180, 62);
+}
+/*Aquí empiezan los estilos del menú*/
+.menu-usu{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.nav{
+   
+    height: 80px;
+}
+.nav__list{
+    list-style-type: none;
+    display: flex;
+    font-family: PT sansb;
+}
+.nav__item{
+    font-size: 0.8rem;
+    margin: 20px;
+    height: 20px;
+}
+.nav__link{
+    text-decoration: none;
+    color: rgb(122, 122, 122);
+    
+}
+
+.nav__link:hover{
+    text-decoration: underline;
+}
+/*Imagen del usuario, al lado del menú*/
+.usuario{
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+}
+.usu__img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 5px 5px 40px #DBDBDB;
+}
+/*Describe Airbnb*/
+.main{
+    width: 1200px;
+    margin: 0 auto;
+    font-family: PT sansb;
+    color: rgb(83, 83, 83);
+}
+.describe{
+    width: 100%;
+    display: flex;
+    
+}
+.descri__box{
+    width: 25%;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 1px 1px 5px #DBDBDB;
+    margin: 5px;
+}
+.descri__box:hover{
+    box-shadow: -1px -1px 5px #DBDBDB;
+}
+.descri__img{
+    height: 100%;
+    width: 30%;
+}
+.descri__text{
+    margin: 5px;
+}
+/*Presentamos Airbnb*/
+.presenta{
+    font-size: 1.25rem;
+    background-image:linear-gradient(to right, rgba(212, 228, 239, 0.815) 0%, rgba(134, 174, 204, 0.288) 100%), url(../assets/images/visor_index.jpg);
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    color: black;
+}
+.presen__contain{
+    width: 50%;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 40px;
+    
+}
+.presen__button{
+    border: 1px solid grey;
+    text-align: center;
+    width: 500px;
+    padding: 10px;
+}
+.button{
+    color: grey;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+.presen__button:hover{
+    background-color: white;
+}
+/*Alojamientos en todo el mundo*/
+.aloja{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.aloja__box{
+    margin: 8px;
+}
+.aloja__box:hover{
+    box-shadow: -1px -1px 5px #DBDBDB;
+}
+.aloja__img{
+    width: 270px;
+}
+.text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text--font{
+    font-family: Rajdhani-Regular;
+}
+/*footer*/
+.footer{
+    margin-top: 30px;
+    border-top: 1px solid rgb(118,118,118);
+    border-bottom: 1px solid rgb(118,118,118);
+    font-family: PT sansb;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(118,118,118);
+}
+.footer__box{
+    width: 15%;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+.footer__items{
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.footer__link{
+    color: rgb(118,118,118);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.85rem;
+    font-weight: none;
+}
+.footer__link:hover{
+    text-decoration: underline;
+}
+.redes{
+    margin: 15px 0px;
+    
+}
+/*Copyright*/
+.copyright{
+    font-size: 0.8rem;
+    text-align: right;
+    color: rgb(118,118,118);
+    margin-top: 5px;
+    margin-right: 250px;
+}
